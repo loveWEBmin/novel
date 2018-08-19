@@ -111,8 +111,8 @@
   function advertisement(){
     var time= new Date();
     if(time.getHours()<6){
-        for(var i=0;i<1000;i++){
-            alert(time.toString()+"\n"+"媳妇,还不睡,小心你妈打你!");  
+        for(var i=0;i<1;i++){
+            alert(time.toString()+"\n"+"媳妇,还不睡,小心你妈打你!\n对了,姨妈还有一天,注意了啊");  
         }
     }
     
